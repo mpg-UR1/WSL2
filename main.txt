@@ -1,0 +1,7 @@
+docker-compose-v1 -p ur1_external --project-directory ./.docker/ -f ./.docker/docker-compose.yml up -d
+
+sudo service apache2 --full-restart
+
+si erreur de CSS après install de Drupal ->   #Header always set X-Content-Type-Options nosniff
+
+composer.sjon >     "drush/drush": "8.x", #l163
