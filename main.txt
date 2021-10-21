@@ -5,3 +5,8 @@ sudo service apache2 --full-restart
 si erreur de CSS après install de Drupal ->   #Header always set X-Content-Type-Options nosniff
 
 composer.sjon >     "drush/drush": "8.x", #l163
+
+
+dev container : 
+    sudo apt install docker
+    sudo apt install docker-compose
