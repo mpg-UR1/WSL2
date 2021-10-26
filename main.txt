@@ -14,7 +14,7 @@ sudo composer selfupdate --2
 composer self-update --rollback
 
 drush
--install 
+-install (composer v1 ?)
 sudo composer require drush/drush:8.x
 
 dev container : 
