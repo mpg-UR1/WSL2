@@ -1,2 +1,25 @@
-# WSL2
-tips installation WSL2
+install composer
+https://getcomposer.org/doc/00-intro.md
+
+docker-compose-v1 -p ur1_external --project-directory ./.docker/ -f ./.docker/docker-compose.yml up -d
+
+sudo service apache2 --full-restart
+
+si erreur de CSS après install de Drupal ->   #Header always set X-Content-Type-Options nosniff
+
+composer.sjon >     "drush/drush": "8.x", #l163
+
+composer :
+- update à v2
+sudo composer selfupdate --2
+
+- rollback v1
+composer self-update --rollback
+
+drush
+-install (composer v1 ?)
+sudo composer require drush/drush:8.x
+
+dev container : 
+    sudo apt install docker
+    sudo apt install docker-compose
