@@ -1,5 +1,7 @@
 install composer
 https://getcomposer.org/doc/00-intro.md
+composer v1 et V2 
+https://joostvanveen.com/run-composer-1-and-2-simultaniously
 
 docker-compose-v1 -p ur1_external --project-directory ./.docker/ -f ./.docker/docker-compose.yml up -d
 
