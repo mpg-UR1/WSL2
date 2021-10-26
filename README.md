@@ -22,6 +22,9 @@ drush
 -install (composer v1 ?)
 sudo composer require drush/drush:8.x
 
+erreur drush accès database
+sudo apt-get install mysql-server
+
 dev container : 
     sudo apt install docker
     sudo apt install docker-compose
