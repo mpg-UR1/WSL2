@@ -13,6 +13,10 @@ sudo composer selfupdate --2
 - rollback v1
 composer self-update --rollback
 
+drush
+-install 
+sudo composer require drush/drush:8.x
+
 dev container : 
     sudo apt install docker
     sudo apt install docker-compose
