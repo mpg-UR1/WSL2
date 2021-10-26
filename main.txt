@@ -6,6 +6,12 @@ si erreur de CSS après install de Drupal ->   #Header always set X-Content-Type
 
 composer.sjon >     "drush/drush": "8.x", #l163
 
+composer :
+- update à v2
+sudo composer selfupdate --2
+
+- rollback v1
+composer self-update --rollback
 
 dev container : 
     sudo apt install docker
