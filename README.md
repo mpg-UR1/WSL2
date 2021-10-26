@@ -23,7 +23,8 @@ drush
 composer require drush/drush:8.x
 
 erreur drush accès database
-sudo apt-get install mysql-server
+
+  sudo apt-get install mysql-server
 sudo service mysql stop
 sudo usermod -d /var/lib/mysql/ mysql
 sudo service mysql start
