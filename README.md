@@ -27,6 +27,7 @@ sudo apt-get install mysql-server
 sudo service mysql stop
 sudo usermod -d /var/lib/mysql/ mysql
 sudo service mysql start
+ sudo service mysql status
 
 dev container : 
     sudo apt install docker
